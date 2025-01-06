@@ -16,7 +16,7 @@ object AppModule {
 
     @Provides
     fun provideScanCode(): ScanCode {
-        return ScanCode() // Replace with appropriate constructor or initialization logic
+        return ScanCode()
     }
 
     @Provides

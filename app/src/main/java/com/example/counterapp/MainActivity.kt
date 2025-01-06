@@ -8,7 +8,6 @@ import androidx.activity.result.contract.ActivityResultContracts
 import androidx.navigation.compose.rememberNavController
 import com.example.counterapp.ui.navigation.AppNavigation
 import com.example.counterapp.utils.camera.CameraUtils
-import com.example.counterapp.utils.StorageUtils
 import com.example.counterapp.utils.camera.CameraPermissionManager
 import dagger.hilt.android.AndroidEntryPoint
 
