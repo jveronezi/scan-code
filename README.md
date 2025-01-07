@@ -17,6 +17,9 @@ A native Android application designed for seamless QR code scanning at event ent
   - `androidx.compose.ui.tooling`
   - `androidx.activity.compose`
   - `androidx.runtime.livedata`
+- Images processing using **Glide**
+  - `com.github.bumptech.glide:glide`
+  - `com.github.bumptech.glide:compiler`
 
 ---
 
@@ -73,4 +76,5 @@ A native Android application designed for seamless QR code scanning at event ent
 - `org.jetbrains.kotlin.android`
 - `org.jetbrains.kotlin.plugin.compose`
 - `com.google.dagger.hilt.android`
+- `com.google.devtools.ksp`
 

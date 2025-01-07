@@ -17,7 +17,7 @@ class CameraManager @Inject constructor(
     private var cameraProvider: ProcessCameraProvider? = null
 
     fun startCamera(
-        context: Context, // Explicitly pass the Context
+        context: Context,
         lifecycleOwner: LifecycleOwner,
         onQRCodeDetected: (String?) -> Unit
     ) {

@@ -16,6 +16,8 @@ appcompat = "1.7.0"
 zxingAndroidEmbedded = "4.3.0"
 hiltVersion = "2.51.1"
 hiltNavVersion = "1.2.0"
+glideVersion = "4.15.1"
+kspVersion = "2.0.0-1.0.24"
 
 [libraries]
 androidx-camera-camera2 = { module = "androidx.camera:camera-camera2", version.ref = "cameraCore" }
@@ -45,9 +47,12 @@ androidx-runtime-livedata = { group = "androidx.compose.runtime", name = "runtim
 androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
 zxing-android-embedded = { module = "com.journeyapps:zxing-android-embedded", version.ref = "zxingAndroidEmbedded" }
 androidx-core = { group = "androidx.core", name = "core", version.ref = "coreKtx" }
+glide = { module = "com.github.bumptech.glide:glide", version.ref = "glideVersion"}
+glide-compiler = { module = "com.github.bumptech.glide:compiler", version.ref = "glideVersion" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
 kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
 kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
 hilt = { id = "com.google.dagger.hilt.android", version.ref = "hiltVersion" }
+ksp = { id = "com.google.devtools.ksp", version.ref = "kspVersion" }
